@@ -4,3 +4,6 @@ git status (Shows all files which have been changed but haven't added to remote 
 git init (maintain the history in git repository. Also .git file is created in which you can perform all git operations)
 git add . (add all the files which are currently unstaged) or git add particularFileName
 git commit -m "Message"
+git remote add origin httpsLink
+git push origin master (where master is the branch name)
+git merge feature (merging with branches)
