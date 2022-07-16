@@ -1,0 +1,6 @@
+git checkout branchName (It pulls and switch at the same time)
+git switch branchName	(It switches the branch , you have to pull separately)
+git status (Shows all files which have been changed but haven't added to remote repository)
+git init (maintain the history in git repository. Also .git file is created in which you can perform all git operations)
+git add . (add all the files which are currently unstaged) or git add particularFileName
+git commit -m "Message"
